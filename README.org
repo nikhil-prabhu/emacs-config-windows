@@ -20,7 +20,7 @@
 
   #+BEGIN_EXAMPLE
   > cp emacs-config-windows\.emacs C:\Users\<username>\AppData\Roaming
-  #+END_SRC
+  #+END_EXAMPLE
   
 - Now start up GNU Emacs and wait for the required packages to be automatically installed. Once installation is finished, you may have a **Warnings** buffer show up, which you can ignore.
 
