@@ -51,6 +51,18 @@
 
 ;; Packages ;;
 
+;; auto-package-update
+(use-package auto-package-update
+  :ensure t
+  :if (not (daemonp))
+  :custom
+  (auto-package-update-interval 7) ;; in days
+  (auto-package-update-prompt-before-update t)
+  (auto-package-update-delete-old-versions t)
+  (auto-package-update-hide-results t)
+  :config
+  (auto-package-update-maybe))
+
 ;; monokai-pro-theme
 (use-package monokai-pro-theme
   :ensure t
@@ -76,7 +88,7 @@
   :bind ("C-x t" . treemacs)
   :config (setq treemacs-no-png-images t))
 
-;; crlf
+;; ctrlf
 (use-package ctrlf
   :ensure t
   :init (ctrlf-mode +1))
