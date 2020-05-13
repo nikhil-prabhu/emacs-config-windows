@@ -5,8 +5,12 @@
 * About
 
   This repository contains one Elisp file (~.emacs~) that should be placed in ~C:\Users\<username>\AppData\Roaming~. This configuration is a heavily stripped down version of my [[https://github.com/nikhil-prabhu/emacs-config][main Emacs configuration]] and is configured to be as minimal as possible, while also having most of the functionality that I generally require. I made this configuration primarily for Windows, since my full-blown configuration is quite slow on Windows (due to Windows' poor performance with working with many small files).
+  
+  This configuration is free to use, modify and/or redistribute under the terms mentioned in the GNU General Public License v2.0.
 
-  *NOTE:* I primarily work only with UNIX based operating systems (GNU/Linux, BSD, macOS, etc.). I only use Windows when I'm forced to (like at work). This configuration is just a stand-by for when I have to use Emacs on Windows for some quick editing.
+  *NOTE:* 
+  - I primarily work only with UNIX based operating systems (GNU/Linux, BSD, macOS, etc.). I only use Windows when I'm forced to (like at work). This configuration is just a stand-by for when I have to use Emacs on Windows for some quick editing.
+  - I've only tested this configuration on GNU Emacs 26.x. However, it should work fine for the most part on older versions.
 
 * Installation
 
