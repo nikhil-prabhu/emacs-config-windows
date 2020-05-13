@@ -1,2 +1,42 @@
-# emacs-config-windows
-My minimal configuration for GNU Emacs on Windows.
+* emacs-config-windows
+  
+  My minimal configuration for GNU Emacs on Windows.
+
+* About
+
+  This repository contains one Elisp file (~.emacs~) that should be placed in ~C:\Users\<username>\AppData\Roaming~. This configuration is a heavily stripped down version of my [[https://github.com/nikhil-prabhu/emacs-config][main Emacs configuration]] and is configured to be as minimal as possible, while also having most of the functionality that I generally require. I made this configuration primarily for Windows, since my full-blown configuration is quite slow on Windows (due to Windows' poor performance with working with many small files).
+
+  *NOTE:* I primarily work only with UNIX based operating systems (GNU/Linux, BSD, macOS, etc.). I only use Windows when I'm forced to (like at work). This configuration is just a stand-by for when I have to use Emacs on Windows for some quick editing.
+
+* Installation
+
+  - Clone this repository to a directory on your local machine.
+
+  #+BEGIN_EXAMPLE
+  > git clone https://github.com/nikhil-prabhu/emacs-config-windows
+  #+END_EXAMPLE
+
+  - Copy and paste the ~.emacs~ file in ~C:\Users\<username>\AppData\Roaming~
+
+  #+BEGIN_EXAMPLE
+  > cp emacs-config-windows\.emacs C:\Users\<username>\AppData\Roaming
+  #+END_SRC
+  
+- Now start up GNU Emacs and wait for the required packages to be automatically installed. Once installation is finished, you may have a **Warnings** buffer show up, which you can ignore.
+
+* Packages
+
+The following table contains the list of packages that are used in this configuration.
+
+  | Package Name        | Description                         | Repository |
+  |---------------------+-------------------------------------+------------|
+  | auto-package-update | Automatically update packages.      | [[https://melpa.org/#/auto-package-update][MELPA]]      |
+  | evil                | Vim keybindings in Emacs.           | [[https://melpa.org/#/evil][MELPA]]      |
+  | magit               | Powerful Git integration for Emacs. | [[https://melpa.org/#/magit][MELPA]]      |
+  | flycheck            | On-the-fly syntax checking.         | [[https://melpa.org/#/flycheck][MELPA]]      |
+  | treemacs            | Project directory tree.             | [[https://melpa.org/#/rainbow-delimiters][MELPA]]      |
+  | ace-window          | Quickly switch between windows.     | [[https://melpa.org/#/ace-window][MELPA]]      |
+  | smex                | M-x interface with fuzzy matching.  | [[https://melpa.org/#/smex][MELPA]]      |
+  | monokai-pro-theme   | Monokai pro theme                   | [[https://melpa.org/#/monokai-pro-theme][MELPA]]      |
+  | ctrlf               | Isearch replacement                 | [[https://melpa.org/#/ctrlf][MELPA]]      |
+
