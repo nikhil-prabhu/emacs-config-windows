@@ -22,11 +22,11 @@
   > cp emacs-config-windows\.emacs C:\Users\<username>\AppData\Roaming
   #+END_EXAMPLE
   
-- Now start up GNU Emacs and wait for the required packages to be automatically installed. Once installation is finished, you may have a **Warnings** buffer show up, which you can ignore.
+  - Now start up GNU Emacs and wait for the required packages to be automatically installed. Once installation is finished, you may have a **Warnings** buffer show up, which you can ignore.
 
 * Packages
 
-The following table contains the list of packages that are used in this configuration.
+  The following table contains the list of packages that are used in this configuration.
 
   | Package Name        | Description                         | Repository |
   |---------------------+-------------------------------------+------------|
