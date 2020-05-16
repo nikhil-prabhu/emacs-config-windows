@@ -106,6 +106,10 @@
 	 ("M-X" . smex-major-mode-commands)
 	 ("C-c C-c M-x" . execute-extended-command)))
 
+;; ox-twbs
+(use-package ox-twbs
+  :ensure t)
+
 ;; Keybindings ;;
 
 ;; Open a shell buffer
