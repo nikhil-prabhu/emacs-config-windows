@@ -32,15 +32,16 @@
 
   The following table contains the list of packages that are used in this configuration.
 
-  | Package Name        | Description                         | Repository |
-  |---------------------+-------------------------------------+------------|
-  | auto-package-update | Automatically update packages.      | [[https://melpa.org/#/auto-package-update][MELPA]]      |
-  | evil                | Vim keybindings in Emacs.           | [[https://melpa.org/#/evil][MELPA]]      |
-  | magit               | Powerful Git integration for Emacs. | [[https://melpa.org/#/magit][MELPA]]      |
-  | flycheck            | On-the-fly syntax checking.         | [[https://melpa.org/#/flycheck][MELPA]]      |
-  | treemacs            | Project directory tree.             | [[https://melpa.org/#/rainbow-delimiters][MELPA]]      |
-  | ace-window          | Quickly switch between windows.     | [[https://melpa.org/#/ace-window][MELPA]]      |
-  | smex                | M-x interface with fuzzy matching.  | [[https://melpa.org/#/smex][MELPA]]      |
-  | monokai-pro-theme   | Monokai pro theme                   | [[https://melpa.org/#/monokai-pro-theme][MELPA]]      |
-  | ctrlf               | Isearch replacement                 | [[https://melpa.org/#/ctrlf][MELPA]]      |
+  | Package Name        | Description                                | Repository |
+  |---------------------+--------------------------------------------+------------|
+  | auto-package-update | Automatically update packages.             | [[https://melpa.org/#/auto-package-update][MELPA]]      |
+  | evil                | Vim keybindings in Emacs.                  | [[https://melpa.org/#/evil][MELPA]]      |
+  | magit               | Powerful Git integration for Emacs.        | [[https://melpa.org/#/magit][MELPA]]      |
+  | flycheck            | On-the-fly syntax checking.                | [[https://melpa.org/#/flycheck][MELPA]]      |
+  | treemacs            | Project directory tree.                    | [[https://melpa.org/#/rainbow-delimiters][MELPA]]      |
+  | ace-window          | Quickly switch between windows.            | [[https://melpa.org/#/ace-window][MELPA]]      |
+  | smex                | M-x interface with fuzzy matching.         | [[https://melpa.org/#/smex][MELPA]]      |
+  | monokai-pro-theme   | Monokai pro theme                          | [[https://melpa.org/#/monokai-pro-theme][MELPA]]      |
+  | ctrlf               | Isearch replacement                        | [[https://melpa.org/#/ctrlf][MELPA]]      |
+  | ox-twbs             | Bootstrap compatible HTML Back-End for Org | [[https://melpa.org/#/ox-twbs][MELPA]]      |
 
