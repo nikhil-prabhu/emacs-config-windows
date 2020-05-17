@@ -41,7 +41,6 @@
   | treemacs            | Project directory tree.                    | [[https://melpa.org/#/rainbow-delimiters][MELPA]]      |
   | ace-window          | Quickly switch between windows.            | [[https://melpa.org/#/ace-window][MELPA]]      |
   | smex                | M-x interface with fuzzy matching.         | [[https://melpa.org/#/smex][MELPA]]      |
-  | monokai-pro-theme   | Monokai pro theme                          | [[https://melpa.org/#/monokai-pro-theme][MELPA]]      |
   | ctrlf               | Isearch replacement                        | [[https://melpa.org/#/ctrlf][MELPA]]      |
   | ox-twbs             | Bootstrap compatible HTML Back-End for Org | [[https://melpa.org/#/ox-twbs][MELPA]]      |
 
