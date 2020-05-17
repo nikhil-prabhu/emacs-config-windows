@@ -23,6 +23,9 @@
 
 ;; Interface settings ;;
 
+;; Default theme (Tango Dark)
+(load-theme tango-dark t)
+
 ;; Disable scrollbar
 (scroll-bar-mode -1)
 
@@ -62,11 +65,6 @@
   (auto-package-update-hide-results t)
   :config
   (auto-package-update-maybe))
-
-;; monokai-pro-theme
-(use-package monokai-pro-theme
-  :ensure t
-  :init (load-theme 'monokai-pro t))
 
 ;; evil
 (use-package evil
