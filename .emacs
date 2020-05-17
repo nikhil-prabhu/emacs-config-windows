@@ -24,7 +24,7 @@
 ;; Interface settings ;;
 
 ;; Default theme (Tango Dark)
-(load-theme tango-dark t)
+(load-theme 'tango-dark t)
 
 ;; Disable scrollbar
 (scroll-bar-mode -1)
