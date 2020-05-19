@@ -108,6 +108,11 @@
 (use-package ox-twbs
   :ensure t)
 
+;; nyan-mode
+(use-package nyan-mode
+  :ensure t
+  :init (nyan-mode))
+
 ;; Keybindings ;;
 
 ;; Open a shell buffer
