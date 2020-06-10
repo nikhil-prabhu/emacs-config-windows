@@ -71,10 +71,6 @@
   :ensure t
   :init (evil-mode t))
 
-;; magit
-(use-package magit
-  :ensure t)
-
 ;; flycheck
 (use-package flycheck
   :ensure t

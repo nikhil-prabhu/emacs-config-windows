@@ -36,7 +36,6 @@
   |---------------------+---------------------------------------------------------+------------|
   | auto-package-update | Automatically update packages.                          | [[https://melpa.org/#/auto-package-update][MELPA]]      |
   | evil                | Vim keybindings in Emacs.                               | [[https://melpa.org/#/evil][MELPA]]      |
-  | magit               | Powerful Git integration for Emacs.                     | [[https://melpa.org/#/magit][MELPA]]      |
   | flycheck            | On-the-fly syntax checking.                             | [[https://melpa.org/#/flycheck][MELPA]]      |
   | treemacs            | Project directory tree.                                 | [[https://melpa.org/#/rainbow-delimiters][MELPA]]      |
   | ace-window          | Quickly switch between windows.                         | [[https://melpa.org/#/ace-window][MELPA]]      |
